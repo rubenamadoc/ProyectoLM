@@ -1,0 +1,118 @@
+html,body{
+    font-family: 'Cormorant Garamond', serif;
+    height: 100%;
+    font-size: 65%;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+header {
+    background-image: url(../IMG/migratory-birds-157638_1280.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 150px;
+    font-size: 1.7rem;
+}
+
+main {
+    background: linear-gradient(rgba(165, 66, 9, 0.979),rgb(8, 8, 8));
+    font-size: 1.3rem;
+}
+
+#us {
+    font-size: 1.5rem;
+}
+
+p {
+    font-family: 'Oswald', sans-serif;
+}
+
+.inicio {
+    display: flex;
+    justify-content: space-around;
+}
+
+.boton {
+    display: inline;
+    margin: 0px 0px 0px 0px;
+}
+
+img {
+    max-width: 100%;
+}
+@media (min-width:768px){
+    #contenido {
+        text-align: center;
+        display: grid;
+        grid-template-columns: 4fr 1fr;
+        gap: 5%;
+    }
+}
+
+
+@media (max-width:450px){
+    #contenido {
+        text-align: center;
+        display: grid;
+        grid-template-rows: 3fr 1fr;
+        gap: 1%;
+    }
+}
+
+
+
+#noticia {
+    border: 5px solid rgba(165, 66, 9, 0.979);
+}
+
+iframe {
+    height: 100%;
+    width: 100%;
+}
+
+#categoria {
+    color: bisque;
+}
+
+@media (min-width:768px){
+    .especie {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 2%;
+    }
+}
+
+@media (max-width:450px){
+    .especie {
+        display:grid;
+        grid-template-rows: 1fr 2fr;
+    }
+}
+
+.especie >p {
+    text-align: justify;
+}
+
+#formulario {
+    color: bisque;
+}
+
+fieldset {
+display: flex;
+flex-flow: column wrap;
+text-align: center;
+}
+
+input {
+    border: 8px;
+    padding: 24px;
+}
+
+footer {
+    background-color: black;
+    color: bisque;
+    font-size: 1.4rem;
+}
